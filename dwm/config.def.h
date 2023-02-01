@@ -7,6 +7,8 @@ static const unsigned int snap      = 42;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
 static const double defaultopacity = 1;
+static const int vertpad            = 15;       /* vertical padding of bar */
+static const int sidepad            = 15;       /* horizontal padding of bar */
 static const char *fonts[]          = { "monospace:size=22" };
 static const char dmenufont[]       = "monospace:size=28";
 // background color
