@@ -9,16 +9,16 @@ static const int topbar             = 0;        /* 0 means bottom bar */
 static const double defaultopacity = 1;
 static const int vertpad            = 15;       /* vertical padding of bar */
 static const int sidepad            = 15;       /* horizontal padding of bar */
-static const char *fonts[]          = { "monospace:size=22" };
-static const char dmenufont[]       = "monospace:size=28";
+static const char *fonts[]          = { "Hack Nerd Font:size=18" };
+static const char dmenufont[]       = "Hack Nerd Font:size=18";
 // background color
 static const char col_gray1[]       = "#222222";
 // inactive window border color
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
+static const char col_gray3[]       = "#a7e3eb";
+static const char col_gray4[]       = "#38cf7e";
 // bar
-static const char col_cyan[]        = "#b58e22";
+static const char col_cyan[]        = "#222222";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
